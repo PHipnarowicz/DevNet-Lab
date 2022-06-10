@@ -1,0 +1,21 @@
+---
+
+R1:
+    hostname: "192.168.204.101"
+    groups:
+        - arista_group
+
+R2:
+    hostname: "192.168.204.102"
+    groups:
+        - cisco_group
+
+R3:
+    hostname: "192.168.204.103"
+    groups:
+        - arista_group
+
+R4:
+    hostname: "192.168.204.104"
+    groups:
+        - cisco_group

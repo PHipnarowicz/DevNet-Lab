@@ -1,0 +1,7 @@
+---
+
+arista_group:
+    platform: eos
+    
+cisco_group:
+    platform: ios

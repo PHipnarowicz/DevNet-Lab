@@ -1,0 +1,7 @@
+---
+
+username: "ph"
+password: "password1"
+
+data:
+    ntp_server: "9.9.9.9"
