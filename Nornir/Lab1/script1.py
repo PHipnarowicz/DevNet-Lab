@@ -8,7 +8,7 @@ def main():
 
     nr = InitNornir(config_file="config.yaml")
 
-    results = nr.run(task=send_command, command="show ip interfaces brief")
+    results = nr.run(task=send_command, command="show ip interface brief")
     print_result(results)
 
 
