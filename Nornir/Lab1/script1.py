@@ -4,11 +4,15 @@ from nornir_utils.plugins.functions import print_result
 
 
 
+def custom_task(task):
+    task.run(task=send_command, command="show ip interface brief")
+
+
 def main():
 
     nr = InitNornir(config_file="config.yaml")
 
-    results = nr.run(task=send_command, command="show ip interface brief")
+    results = nr.run(task=custom_task)
     print_result(results)
 
 
