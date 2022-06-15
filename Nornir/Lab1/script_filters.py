@@ -13,7 +13,7 @@ def main():
 
     nr = InitNornir(config_file="config.yaml")
 
-    filtered_nr_1 = nr.filter(name="R1")
+    filtered_nr_1 = nr.filter(name="R2")
     results_1 = filtered_nr_1.run(task=custom_task)
     print_result(results_1)
 
